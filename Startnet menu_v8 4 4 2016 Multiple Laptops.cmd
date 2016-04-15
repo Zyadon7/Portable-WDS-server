@@ -2,14 +2,14 @@ wpeinit
 @ECHO OFF
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::								                                    ::
-::                	 Portable WDS Server	                        ::
-::								                                    ::							
-::								                                    ::
+::								                                                  ::
+::                	 Portable WDS Server	                          ::
+::								                                                  ::							
+::								                                                  ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::								                                    ::
+::								                                                  ::
 ::	WRITTEN BY A1C Zachary Smit - RAF LAKENHEATH 48CS/SCOSC         ::
-::								                                    ::
+::								                                                 ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 color 2
@@ -35,18 +35,18 @@ ECHO.
 SET INPUT=
 SET /P INPUT=Please select a number:
 
-IF /I ‘%INPUT%’==’1’ GOTO Selection1
-IF /I ‘%INPUT%’==’2’ GOTO Selection2
-IF /I ‘%INPUT%’==’3’ GOTO Selection3
-IF /I ‘%INPUT%’==’4’ GOTO Selection4
-IF /I ‘%INPUT%’==’Q’ GOTO Quit
+IF /I â€˜%INPUT%â€™==â€™1â€™ GOTO Selection1
+IF /I â€˜%INPUT%â€™==â€™2â€™ GOTO Selection2
+IF /I â€˜%INPUT%â€™==â€™3â€™ GOTO Selection3
+IF /I â€˜%INPUT%â€™==â€™4â€™ GOTO Selection4
+IF /I â€˜%INPUT%â€™==â€™Qâ€™ GOTO Quit
 CLS
 
 ECHO ============INVALID INPUT============
-ECHO ————————————-
+ECHO â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 ECHO Please select a number from the Main
 ECHO Menu [1-4] or select Q to quit.
-ECHO ————————————-
+ECHO â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 ECHO ======PRESS ANY KEY TO CONTINUE======
 
 PAUSE > NUL
@@ -81,18 +81,18 @@ ECHO.
 SET Laptop_model=
 SET /P Laptop_model=Please select a number:
 
-IF /I ‘%Laptop_model%’==’1’ GOTO Laptop1
-IF /I ‘%Laptop_model%’==’2’ GOTO Laptop2
-IF /I ‘%Laptop_model%’==’3’ GOTO Laptop3
-IF /I ‘%Laptop_model%’==’4’ GOTO Menu
-IF /I ‘%Laptop_model%’==’Q’ GOTO Quit
+IF /I â€˜%Laptop_model%â€™==â€™1â€™ GOTO Laptop1
+IF /I â€˜%Laptop_model%â€™==â€™2â€™ GOTO Laptop2
+IF /I â€˜%Laptop_model%â€™==â€™3â€™ GOTO Laptop3
+IF /I â€˜%Laptop_model%â€™==â€™4â€™ GOTO Menu
+IF /I â€˜%Laptop_model%â€™==â€™Qâ€™ GOTO Quit
 CLS
 
 ECHO ============INVALID INPUT============
-ECHO ————————————-
+ECHO â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 ECHO Please select a number from the Main
 ECHO Menu [1-4] or select Q to quit.
-ECHO ————————————-
+ECHO â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 ECHO ======PRESS ANY KEY TO CONTINUE======
 
 PAUSE > NUL
